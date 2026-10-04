@@ -4,7 +4,11 @@ import random
 # Create a list of 3 operating systems.
 # Print the last one using len().
 # Then reverse the list and print it.
-
+os_list = ["windows", "mac0S", "Linux"]
+last_index = len(os_list) - 1
+print(os_list[last_index])
+os_list.reverse()
+print(os_list)
 
 
 # Problem 2
