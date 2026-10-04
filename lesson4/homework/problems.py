@@ -8,7 +8,7 @@ os_list = ["windows", "mac0S", "Linux"]
 last_index = len(os_list) - 1
 print(os_list[last_index])
 os_list.reverse()
-print(os_list)
+print(os_list) 
 
 
 # Problem 2
