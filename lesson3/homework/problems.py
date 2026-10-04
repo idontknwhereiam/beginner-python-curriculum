@@ -2,8 +2,11 @@
 # Ask user for two test scores.
 # If BOTH scores are at least 50, print "You passed both!"
 # Otherwise, print "You failed at least one."
-score1 = float(input("enter first test score:"))
-score2 = float(input("enter second test score: ")) 
+score1 = float(input("enter first test score: "))
+score2 = float(input("enter second test score: "))
+if score1 >= 50 and score2 >= 50:
+ print("you passed both!")
+else: print("you failed at least one.")
 
 
 
@@ -13,7 +16,14 @@ score2 = float(input("enter second test score: "))
 # If they brought lunch OR water, print "You're somewhat ready."
 # If they brought both, print "You're fully ready!"
 # If they brought neither, print "You're not ready."
-brought_lunch = input("did you bring lunch? (yes/no): ").strip()
+brought_lunch = input("did you bring lunch? (yes/no): ").strip().lower()
+brought_water = input("did you bring water? (yess/no): ").strip().lower()
+if brought_lunch == "yes" and brought_water == "yes":
+ print("you're fully ready!")
+elif brought_lunch == "yes" or brought_water == "yes":
+ print("you're somewhat ready.")
+else: print("you're not ready.")
+
 
 
 
@@ -21,7 +31,11 @@ brought_lunch = input("did you bring lunch? (yes/no): ").strip()
 # Ask user to enter a number.
 # If the number is NOT between 1 and 10 (inclusive), print "Out of range."
 # Otherwise, print "In range."
-
+number = float(input("enter a number: "))
+if number < 1 or number > 10:
+ print("out of range")
+else: 
+ print("in range.")
 
 
 # Problem 4

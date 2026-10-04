@@ -29,7 +29,6 @@ for code in error_codes:
 # Create a list of 2 programming languages.
 # Print a random one.
 # Then append another language and print the list.
-import random
 languages = ["python", "javascript"]
 print(random.choice(languages))
 languages.append("java")
