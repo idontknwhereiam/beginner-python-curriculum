@@ -26,7 +26,7 @@ print("after removing 'green':", colors)
 # colors.remove("pink")
 
 popped_colot = colors.pop()
-print("poppled color:" , popped_color)
+print("popped color:" , popped_color)
 print("after pop:", colors)
 
 popped_color_at_index = colors.pop(1)

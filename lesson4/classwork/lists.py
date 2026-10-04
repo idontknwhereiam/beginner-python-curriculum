@@ -2,7 +2,7 @@
 fruits = ["apple", "banana", "cherry", "date"]
 
 length = len(fruits)
-print(number of fruits:", length)
+print("number of fruits:", length)
 
 last_fruit = fruits[ length - 1]
 print("last fruit:", last_fruit)
