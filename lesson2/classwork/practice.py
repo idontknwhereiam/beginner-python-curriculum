@@ -22,4 +22,5 @@
 
 
 # Problem 5
-# Use a for loop to print the numbers from 2 to 8, one per line.
+# Use a for loop to print the numbers from 2 to 8, inclusive, one per line.
+
