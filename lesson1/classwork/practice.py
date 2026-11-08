@@ -1,16 +1,19 @@
 # Problem 1
 # Create a variable for your favorite number and print it.
-
+x = 11 # variable
+print(x)
 
 
 # Problem 2
 # Create a variable for your height in meters and print it.
-
+height = 1.72 # variable, tell what variable is
+print(height)
 
 
 # Problem 3
 # Create a variable for your favorite animal and print it in a full sentence.
-
+favorite_animal = "tiger"
+print("my favorite animal is", favorite_animal)
 
 
 # Problem 4
